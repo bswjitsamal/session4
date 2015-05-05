@@ -7,6 +7,7 @@
     <classes>
       <class name="com.webtek.test.SanityTest">
         <methods>
+          <include name="productCheckOut"/>
           <include name="SetUp"/>
           <include name="SetUp"/>
           <include name="SetUp"/>
@@ -17,11 +18,28 @@
       </class> <!-- com.webtek.test.SanityTest -->
     </classes>
   </test> <!-- IETest(failed) -->
+  <test name="ChromeTest(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.webtek.test.SanityTest">
+        <methods>
+          <include name="productCheckOut"/>
+          <include name="SetUp"/>
+          <include name="SetUp"/>
+          <include name="SetUp"/>
+          <include name="userSignUp"/>
+          <include name="signUser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.webtek.test.SanityTest -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
   <test name="FirefoxTest(failed)" parallel="tests">
     <parameter name="browser" value="firefox"/>
     <classes>
       <class name="com.webtek.test.SanityTest">
         <methods>
+          <include name="productCheckOut"/>
           <include name="SetUp"/>
           <include name="SetUp"/>
           <include name="SetUp"/>

@@ -5,9 +5,9 @@
     <classes>
       <class name="com.webtek.test.SanityTest">
         <methods>
-          <include name="SetUp"/>
+          <include name="productCheckOut"/>
           <include name="userSignUp"/>
-          <include name="tearDown"/>
+          <include name="signUser"/>
         </methods>
       </class> <!-- com.webtek.test.SanityTest -->
     </classes>

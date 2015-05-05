@@ -1,16 +1,14 @@
 package com.webtek.modules;
 
-import com.webtek.helper.Log;
-
 import org.testng.Reporter;
-
+import com.webtek.helper.Log;
 import com.webtek.pages.HomePage;
 import com.webtek.pages.LoginPage;
 import com.webtek.test.SelTestCase;
 
 public class SignInAction extends SelTestCase{
 
-	public static void execute() {
+	public static void execute() throws InterruptedException {
 
 		HomePage.sign_in.click();
 		Reporter.log("Click action is perfromed on My Account link");
@@ -27,7 +25,7 @@ public class SignInAction extends SelTestCase{
 		LoginPage.signin_button.click();
 		Reporter.log("Click action is performed on Submit button");
 		Log.info("Click action is performed on Submit button");
-		
+		Thread.sleep(1000);
 
 	}
 
