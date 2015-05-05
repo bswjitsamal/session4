@@ -1,0 +1,140 @@
+2015-05-05 14:30:34,410 INFO  [Log] Openign the browser with the given URL 
+2015-05-05 14:30:34,944 INFO  [Log] Clicking on SignIn link 
+2015-05-05 14:30:38,176 INFO  [Log] Entering an email to register 
+2015-05-05 14:30:38,593 INFO  [Log] Clicking on Register button 
+2015-05-05 14:30:40,481 INFO  [Log] Clicked on Title radio button 
+2015-05-05 14:30:40,665 INFO  [Log] Enterd first name in the text field 
+2015-05-05 14:30:41,333 INFO  [Log] Enterd last name in the text field 
+2015-05-05 14:30:41,513 INFO  [Log] Enterd password in the text field 
+2015-05-05 14:30:42,167 INFO  [Log] Selecting days for Date of birth form the Dropdown 
+2015-05-05 14:31:13,006 INFO  [Log] Selecting Months for Date of birth form the Dropdown 
+2015-05-05 14:31:43,809 INFO  [Log] Selecting Years for Date of birth form the Dropdown 
+2015-05-05 14:31:44,001 INFO  [Log] Entering first name for shipping details 
+2015-05-05 14:31:44,168 INFO  [Log] Entering last name for shipping details 
+2015-05-05 14:31:44,344 INFO  [Log] Entering company name for shipping details 
+2015-05-05 14:31:44,517 INFO  [Log] Entering address1 for shipping details 
+2015-05-05 14:31:44,678 INFO  [Log] Entering address2 for shipping details 
+2015-05-05 14:31:44,839 INFO  [Log] Entering city for shipping details 
+2015-05-05 14:31:45,438 INFO  [Log] Entering state for shipping details 
+2015-05-05 14:31:45,614 INFO  [Log] Entering zip code for shipping details 
+2015-05-05 14:31:46,014 INFO  [Log] Entering country for shipping details 
+2015-05-05 14:31:46,173 INFO  [Log] Entering Mobile Number for shipping details 
+2015-05-05 14:31:46,338 INFO  [Log] Entering alias address for shipping details 
+2015-05-05 14:31:48,968 INFO  [Log] Clicking on Register button 
+2015-05-05 14:31:51,721 INFO  [Log] Logout form the application 
+2015-05-05 14:31:53,813 INFO  [Log] Click action is perfromed on My Account link 
+2015-05-05 14:31:54,051 INFO  [Log]  entered in UserName text box 
+2015-05-05 14:31:54,248 INFO  [Log]  entered in Password text box 
+2015-05-05 14:31:55,736 INFO  [Log] Click action is performed on Submit button 
+2015-05-05 14:31:55,736 INFO  [Log] SignInAction performed succesfully 
+2015-05-05 14:31:56,077 INFO  [Log] Closing the browser 
+2015-05-05 14:34:21,332 INFO  [Log] Openign the browser with the given URL 
+2015-05-05 14:34:21,842 INFO  [Log] Clicking on SignIn link 
+2015-05-05 14:34:24,665 INFO  [Log] Entering an email to register 
+2015-05-05 14:34:25,103 INFO  [Log] Clicking on Register button 
+2015-05-05 14:34:26,916 INFO  [Log] Clicked on Title radio button 
+2015-05-05 14:34:27,098 INFO  [Log] Enterd first name in the text field 
+2015-05-05 14:34:27,751 INFO  [Log] Enterd last name in the text field 
+2015-05-05 14:34:27,924 INFO  [Log] Enterd password in the text field 
+2015-05-05 14:34:28,523 INFO  [Log] Selecting days for Date of birth form the Dropdown 
+2015-05-05 14:34:59,262 INFO  [Log] Selecting Months for Date of birth form the Dropdown 
+2015-05-05 14:35:30,035 INFO  [Log] Selecting Years for Date of birth form the Dropdown 
+2015-05-05 14:35:30,201 INFO  [Log] Entering first name for shipping details 
+2015-05-05 14:35:30,369 INFO  [Log] Entering last name for shipping details 
+2015-05-05 14:35:30,549 INFO  [Log] Entering company name for shipping details 
+2015-05-05 14:35:30,727 INFO  [Log] Entering address1 for shipping details 
+2015-05-05 14:35:30,926 INFO  [Log] Entering address2 for shipping details 
+2015-05-05 14:35:31,093 INFO  [Log] Entering city for shipping details 
+2015-05-05 14:35:31,666 INFO  [Log] Entering state for shipping details 
+2015-05-05 14:35:31,837 INFO  [Log] Entering zip code for shipping details 
+2015-05-05 14:35:32,218 INFO  [Log] Entering country for shipping details 
+2015-05-05 14:35:32,369 INFO  [Log] Entering Mobile Number for shipping details 
+2015-05-05 14:35:32,536 INFO  [Log] Entering alias address for shipping details 
+2015-05-05 14:35:35,230 INFO  [Log] Clicking on Register button 
+2015-05-05 14:35:38,286 INFO  [Log] Logout form the application 
+2015-05-05 14:35:40,398 INFO  [Log] Click action is perfromed on My Account link 
+2015-05-05 14:35:40,635 INFO  [Log]  entered in UserName text box 
+2015-05-05 14:35:40,873 INFO  [Log]  entered in Password text box 
+2015-05-05 14:35:42,392 INFO  [Log] Click action is performed on Submit button 
+2015-05-05 14:35:42,392 INFO  [Log] SignInAction performed succesfully 
+2015-05-05 14:35:42,685 INFO  [Log] Closing the browser 
+2015-05-05 14:58:31,921 INFO  [Log] Openign the browser with the given URL 
+2015-05-05 14:58:32,460 INFO  [Log] Clicking on SignIn link 
+2015-05-05 14:58:35,552 INFO  [Log] Entering an email to register 
+2015-05-05 14:58:35,996 INFO  [Log] Clicking on Register button 
+2015-05-05 15:02:55,955 INFO  [Log] Openign the browser with the given URL 
+2015-05-05 15:02:58,025 INFO  [Log] Openign the browser with the given URL 
+2015-05-05 15:02:58,587 INFO  [Log] Clicking on SignIn link 
+2015-05-05 15:03:02,258 INFO  [Log] Entering an email to register 
+2015-05-05 15:03:02,782 INFO  [Log] Clicking on SignIn link 
+2015-05-05 15:03:02,850 INFO  [Log] Clicking on Register button 
+2015-05-05 15:03:03,400 INFO  [Log] Entering an email to register 
+2015-05-05 15:03:03,654 INFO  [Log] Clicking on Register button 
+2015-05-05 15:03:05,078 INFO  [Log] Clicked on Title radio button 
+2015-05-05 15:03:05,138 INFO  [Log] Clicked on Title radio button 
+2015-05-05 15:03:05,877 INFO  [Log] Enterd first name in the text field 
+2015-05-05 15:03:05,920 INFO  [Log] Enterd first name in the text field 
+2015-05-05 15:03:06,170 INFO  [Log] Enterd last name in the text field 
+2015-05-05 15:03:06,170 INFO  [Log] Enterd last name in the text field 
+2015-05-05 15:03:06,470 INFO  [Log] Enterd password in the text field 
+2015-05-05 15:03:06,480 INFO  [Log] Enterd password in the text field 
+2015-05-05 15:03:07,762 INFO  [Log] Selecting days for Date of birth form the Dropdown 
+2015-05-05 15:03:07,762 INFO  [Log] Selecting days for Date of birth form the Dropdown 
+2015-05-05 15:03:39,222 INFO  [Log] Selecting Months for Date of birth form the Dropdown 
+2015-05-05 15:03:39,232 INFO  [Log] Selecting Months for Date of birth form the Dropdown 
+2015-05-05 15:04:10,703 INFO  [Log] Selecting Years for Date of birth form the Dropdown 
+2015-05-05 15:04:10,703 INFO  [Log] Selecting Years for Date of birth form the Dropdown 
+2015-05-05 15:04:11,069 INFO  [Log] Entering first name for shipping details 
+2015-05-05 15:04:11,081 INFO  [Log] Entering first name for shipping details 
+2015-05-05 15:04:11,346 INFO  [Log] Entering last name for shipping details 
+2015-05-05 15:04:11,346 INFO  [Log] Entering last name for shipping details 
+2015-05-05 15:04:11,666 INFO  [Log] Entering company name for shipping details 
+2015-05-05 15:04:11,666 INFO  [Log] Entering company name for shipping details 
+2015-05-05 15:04:11,956 INFO  [Log] Entering address1 for shipping details 
+2015-05-05 15:04:11,956 INFO  [Log] Entering address1 for shipping details 
+2015-05-05 15:04:12,226 INFO  [Log] Entering address2 for shipping details 
+2015-05-05 15:04:12,236 INFO  [Log] Entering address2 for shipping details 
+2015-05-05 15:04:12,506 INFO  [Log] Entering city for shipping details 
+2015-05-05 15:04:12,516 INFO  [Log] Entering city for shipping details 
+2015-05-05 15:04:13,600 INFO  [Log] Entering state for shipping details 
+2015-05-05 15:04:13,610 INFO  [Log] Entering state for shipping details 
+2015-05-05 15:04:13,892 INFO  [Log] Entering zip code for shipping details 
+2015-05-05 15:04:13,892 INFO  [Log] Entering zip code for shipping details 
+2015-05-05 15:04:14,646 INFO  [Log] Entering country for shipping details 
+2015-05-05 15:04:14,646 INFO  [Log] Entering country for shipping details 
+2015-05-05 15:04:14,926 INFO  [Log] Entering Mobile Number for shipping details 
+2015-05-05 15:04:14,936 INFO  [Log] Entering Mobile Number for shipping details 
+2015-05-05 15:04:15,208 INFO  [Log] Entering alias address for shipping details 
+2015-05-05 15:04:15,208 INFO  [Log] Entering alias address for shipping details 
+2015-05-05 15:04:17,558 INFO  [Log] Clicking on Register button 
+2015-05-05 15:04:29,345 INFO  [Log] Closing the browser 
+2015-05-05 15:10:33,226 INFO  [Log] Openign the browser with the given URL 
+2015-05-05 15:10:36,019 INFO  [Log] Clicking on SignIn link 
+2015-05-05 15:10:36,162 INFO  [Log] Entering an email to register 
+2015-05-05 15:10:36,270 INFO  [Log] Clicking on Register button 
+2015-05-05 15:10:38,160 INFO  [Log] Clicked on Title radio button 
+2015-05-05 15:10:38,292 INFO  [Log] Enterd first name in the text field 
+2015-05-05 15:10:38,440 INFO  [Log] Enterd last name in the text field 
+2015-05-05 15:10:38,605 INFO  [Log] Enterd password in the text field 
+2015-05-05 15:10:38,809 INFO  [Log] Selecting days for Date of birth form the Dropdown 
+2015-05-05 15:11:08,990 INFO  [Log] Selecting Months for Date of birth form the Dropdown 
+2015-05-05 15:11:39,149 INFO  [Log] Selecting Years for Date of birth form the Dropdown 
+2015-05-05 15:11:39,256 INFO  [Log] Entering first name for shipping details 
+2015-05-05 15:11:39,339 INFO  [Log] Entering last name for shipping details 
+2015-05-05 15:11:39,537 INFO  [Log] Entering company name for shipping details 
+2015-05-05 15:11:39,685 INFO  [Log] Entering address1 for shipping details 
+2015-05-05 15:11:39,798 INFO  [Log] Entering address2 for shipping details 
+2015-05-05 15:11:39,925 INFO  [Log] Entering city for shipping details 
+2015-05-05 15:11:40,097 INFO  [Log] Entering state for shipping details 
+2015-05-05 15:11:40,208 INFO  [Log] Entering zip code for shipping details 
+2015-05-05 15:11:40,321 INFO  [Log] Entering country for shipping details 
+2015-05-05 15:11:40,461 INFO  [Log] Entering Mobile Number for shipping details 
+2015-05-05 15:11:40,588 INFO  [Log] Entering alias address for shipping details 
+2015-05-05 15:11:43,181 INFO  [Log] Clicking on Register button 
+2015-05-05 15:11:46,011 INFO  [Log] Logout form the application 
+2015-05-05 15:11:48,143 INFO  [Log] Click action is perfromed on My Account link 
+2015-05-05 15:11:48,270 INFO  [Log]  entered in UserName text box 
+2015-05-05 15:11:48,373 INFO  [Log]  entered in Password text box 
+2015-05-05 15:11:49,993 INFO  [Log] Click action is performed on Submit button 
+2015-05-05 15:11:49,993 INFO  [Log] SignInAction performed succesfully 
+2015-05-05 15:11:52,762 INFO  [Log] Closing the browser 

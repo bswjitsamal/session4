@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Click action is perfromed on My Account link]]>
+    </line>
+    <line>
+      <![CDATA[ entered in UserName text box]]>
+    </line>
+    <line>
+      <![CDATA[ entered in Password text box]]>
+    </line>
+    <line>
+      <![CDATA[Click action is performed on Submit button]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="92274" started-at="2015-05-05T09:04:10Z" finished-at="2015-05-05T09:05:42Z">
+    <groups>
+    </groups>
+    <test name="Nopackage" duration-ms="92274" started-at="2015-05-05T09:04:10Z" finished-at="2015-05-05T09:05:42Z">
+      <class name="com.webtek.test.SanityTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.webtek.test.SanityTest@1d251891]" name="SetUp" is-config="true" duration-ms="11181" started-at="2015-05-05T14:34:10Z" finished-at="2015-05-05T14:34:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="userSignUp()[pri:0, instance:com.webtek.test.SanityTest@1d251891]" name="userSignUp" duration-ms="76685" started-at="2015-05-05T14:34:21Z" finished-at="2015-05-05T14:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userSignUp -->
+        <test-method status="PASS" signature="signUser()[pri:0, instance:com.webtek.test.SanityTest@1d251891]" name="signUser" duration-ms="4106" started-at="2015-05-05T14:35:38Z" depends-on-methods="com.webtek.test.SanityTest.userSignUp" finished-at="2015-05-05T14:35:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Click action is perfromed on My Account link]]>
+            </line>
+            <line>
+              <![CDATA[ entered in UserName text box]]>
+            </line>
+            <line>
+              <![CDATA[ entered in Password text box]]>
+            </line>
+            <line>
+              <![CDATA[Click action is performed on Submit button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signUser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.webtek.test.SanityTest@1d251891]" name="tearDown" is-config="true" duration-ms="289" started-at="2015-05-05T14:35:42Z" finished-at="2015-05-05T14:35:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.webtek.test.SanityTest -->
+    </test> <!-- Nopackage -->
+  </suite> <!-- Suite1 -->
+</testng-results>
