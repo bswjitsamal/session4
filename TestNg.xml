@@ -1,26 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<suite name="TestSuite" verbose="1" parallel="tests" >
-  <test name="FirefoxTest" >
-      <parameter name="browser" value="firefox" />
+<suite name="TestSuite" verbose="3" >
+  <test name="Test in FF" >
     <classes>
        <class name="com.webtek.test.SanityTest" />
     </classes>
   </test>
-  
-  <test name="ChromeTest" >
-      <parameter name="browser" value="chrome" />
-    <classes>
-       <class name="com.webtek.test.SanityTest" />
-    </classes>
-  </test>
-  
-  <test name="IETest" >
-      <parameter name="browser" value="IE" />
-    <classes>
-       <class name="com.webtek.test.SanityTest" />
-    </classes>
-  </test>
-  
   
  </suite>

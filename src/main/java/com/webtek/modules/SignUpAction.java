@@ -19,11 +19,7 @@ public class SignUpAction extends SelTestCase {
 	 * rand.nextInt(999) + "@test.com";
 	 */
 
-	public static void execute(String email, String firstName, String lastName,
-			String password, String myfirstname, String mylastname,
-			String mycompany, String myAddressField1, String myAddressField2,
-			String myCity, String myPostCode, String myPhone,
-			String myAliasAddress) {
+	public static void execute() {
 
 		HomePage.sign_in.click();
 		Reporter.log("Clicking on SignIn link");
@@ -41,15 +37,15 @@ public class SignUpAction extends SelTestCase {
 		Reporter.log("Clicked on Title radio button");
 		Log.info("Clicked on Title radio button");
 
-		SignUpPage.firstName.sendKeys(firstName);
+		SignUpPage.firstName.sendKeys("Biswajit");
 		Reporter.log("Enterd first name in the text field");
 		Log.info("Enterd first name in the text field");
 
-		SignUpPage.lastName.sendKeys(lastName);
+		SignUpPage.lastName.sendKeys("Samal");
 		Reporter.log("Enterd last name in the text field");
 		Log.info("Enterd last name in the text field");
 
-		SignUpPage.password.sendKeys(password);
+		SignUpPage.password.sendKeys("password");
 		Reporter.log("Enterd password in the text field");
 		Log.info("Enterd password in the text field");
 
@@ -68,27 +64,27 @@ public class SignUpAction extends SelTestCase {
 		Reporter.log("Selecting Years for Date of birth form the Dropdown");
 		Log.info("Selecting Years for Date of birth form the Dropdown");
 
-		SignUpPage.myfirstname.sendKeys(myfirstname);
+		SignUpPage.myfirstname.sendKeys("Biswjait");
 		Reporter.log("Entering first name for shipping details");
 		Log.info("Entering first name for shipping details");
 
-		SignUpPage.mylastname.sendKeys(mylastname);
+		SignUpPage.mylastname.sendKeys("Samal");
 		Reporter.log("Entering last name for shipping details");
 		Log.info("Entering last name for shipping details");
 
-		SignUpPage.mycompany.sendKeys(mycompany);
+		SignUpPage.mycompany.sendKeys("Ubique Systems");
 		Reporter.log("Entering company name for shipping details");
 		Log.info("Entering company name for shipping details");
 
-		SignUpPage.myAddressField1.sendKeys(myAddressField1);
+		SignUpPage.myAddressField1.sendKeys("Kalikapur");
 		Reporter.log("Entering address1 for shipping details");
 		Log.info("Entering address1 for shipping details");
 
-		SignUpPage.myAddressField2.sendKeys(myAddressField2);
+		SignUpPage.myAddressField2.sendKeys("Kolkata");
 		Reporter.log("Entering address2 for shipping details");
 		Log.info("Entering address2 for shipping details");
 
-		SignUpPage.myCity.sendKeys(myCity);
+		SignUpPage.myCity.sendKeys("Kolkata");
 		Reporter.log("Entering city for shipping details");
 		Log.info("Entering city for shipping details");
 
@@ -97,7 +93,7 @@ public class SignUpAction extends SelTestCase {
 		Reporter.log("Entering state for shipping details");
 		Log.info("Entering state for shipping details");
 
-		SignUpPage.myPostCode.sendKeys(myPostCode);
+		SignUpPage.myPostCode.sendKeys("00000");
 		Reporter.log("Entering zip code for shipping details");
 		Log.info("Entering zip code for shipping details");
 
@@ -106,11 +102,11 @@ public class SignUpAction extends SelTestCase {
 		Reporter.log("Entering country for shipping details");
 		Log.info("Entering country for shipping details");
 
-		SignUpPage.myPhone.sendKeys(myPhone);
+		SignUpPage.myPhone.sendKeys("9748888983");
 		Reporter.log("Entering Mobile Number for shipping details");
 		Log.info("Entering Mobile Number for shipping details");
 
-		SignUpPage.myAliasAddress.sendKeys(myAliasAddress);
+		SignUpPage.myAliasAddress.sendKeys("Kestapur");
 		Reporter.log("Entering alias address for shipping details");
 		Log.info("Entering alias address for shipping details");
 
