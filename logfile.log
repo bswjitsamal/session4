@@ -1,76 +1,29 @@
-2015-05-06 16:59:13,163 INFO  [Log] Openign the browser with the given URL 
-2015-05-06 16:59:13,718 INFO  [Log] Clicking on SignIn link 
-2015-05-06 16:59:18,686 INFO  [Log] Entering an email to register 
-2015-05-06 16:59:19,199 INFO  [Log] Clicking on Register button 
-2015-05-06 16:59:21,584 INFO  [Log] Clicked on Title radio button 
-2015-05-06 16:59:21,767 INFO  [Log] Enterd first name in the text field 
-2015-05-06 16:59:22,441 INFO  [Log] Enterd last name in the text field 
-2015-05-06 16:59:22,631 INFO  [Log] Enterd password in the text field 
-2015-05-06 16:59:23,292 INFO  [Log] Selecting days for Date of birth form the Dropdown 
-2015-05-06 16:59:54,137 INFO  [Log] Selecting Months for Date of birth form the Dropdown 
-2015-05-06 17:00:24,949 INFO  [Log] Selecting Years for Date of birth form the Dropdown 
-2015-05-06 17:00:25,149 INFO  [Log] Entering first name for shipping details 
-2015-05-06 17:00:25,327 INFO  [Log] Entering last name for shipping details 
-2015-05-06 17:00:25,532 INFO  [Log] Entering company name for shipping details 
-2015-05-06 17:00:25,715 INFO  [Log] Entering address1 for shipping details 
-2015-05-06 17:00:25,890 INFO  [Log] Entering address2 for shipping details 
-2015-05-06 17:00:26,076 INFO  [Log] Entering city for shipping details 
-2015-05-06 17:00:26,697 INFO  [Log] Entering state for shipping details 
-2015-05-06 17:00:26,863 INFO  [Log] Entering zip code for shipping details 
-2015-05-06 17:00:27,266 INFO  [Log] Entering country for shipping details 
-2015-05-06 17:00:27,429 INFO  [Log] Entering Mobile Number for shipping details 
-2015-05-06 17:00:27,613 INFO  [Log] Entering alias address for shipping details 
-2015-05-06 17:00:30,625 INFO  [Log] Clicking on Register button 
-2015-05-06 17:00:30,925 INFO  [Log] Logout form the application 
-2015-05-06 17:00:35,872 INFO  [Log] Click action is perfromed on My Account link 
-2015-05-06 17:00:36,177 INFO  [Log]  entered in UserName text box 
-2015-05-06 17:00:36,382 INFO  [Log]  entered in Password text box 
-2015-05-06 17:00:38,695 INFO  [Log] Click action is performed on Submit button 
-2015-05-06 17:00:39,696 INFO  [Log] SignInAction performed succesfully 
-2015-05-06 17:00:39,706 INFO  [Log] Moving to product listing page by clicking on the submenu 
-2015-05-06 17:00:46,840 INFO  [Log] Adding a product to cart 
-2015-05-06 17:00:47,782 INFO  [Log] purchesing the seleted product 
-2015-05-06 17:00:53,847 INFO  [Log] proceedToCheckOutInSummaryPage 
-2015-05-06 17:00:55,793 INFO  [Log] proceedToCheckOutInAddressDetailPage 
-2015-05-06 17:00:58,071 INFO  [Log] proceedTOCheckOutConfirmShippingPage 
-2015-05-06 17:00:58,317 INFO  [Log] payByCheque 
-2015-05-06 17:01:02,076 INFO  [Log] iConfirmMyOrder 
-2015-05-06 17:01:02,681 INFO  [Log] Closing the browser 
-2015-05-06 17:06:05,292 INFO  [Log] Openign the browser with the given URL 
-2015-05-06 17:06:05,912 INFO  [Log] Clicking on SignIn link 
-2015-05-06 17:06:12,227 INFO  [Log] Entering an email to register 
-2015-05-06 17:06:12,732 INFO  [Log] Clicking on Register button 
-2015-05-06 17:06:15,222 INFO  [Log] Clicked on Title radio button 
-2015-05-06 17:06:15,422 INFO  [Log] Enterd first name in the text field 
-2015-05-06 17:06:16,226 INFO  [Log] Enterd last name in the text field 
-2015-05-06 17:06:16,426 INFO  [Log] Enterd password in the text field 
-2015-05-06 17:06:17,109 INFO  [Log] Selecting days for Date of birth form the Dropdown 
-2015-05-06 17:06:48,014 INFO  [Log] Selecting Months for Date of birth form the Dropdown 
-2015-05-06 17:07:18,872 INFO  [Log] Selecting Years for Date of birth form the Dropdown 
-2015-05-06 17:07:19,070 INFO  [Log] Entering first name for shipping details 
-2015-05-06 17:07:19,249 INFO  [Log] Entering last name for shipping details 
-2015-05-06 17:07:19,468 INFO  [Log] Entering company name for shipping details 
-2015-05-06 17:07:19,668 INFO  [Log] Entering address1 for shipping details 
-2015-05-06 17:07:19,913 INFO  [Log] Entering address2 for shipping details 
-2015-05-06 17:07:20,104 INFO  [Log] Entering city for shipping details 
-2015-05-06 17:07:20,771 INFO  [Log] Entering state for shipping details 
-2015-05-06 17:07:20,970 INFO  [Log] Entering zip code for shipping details 
-2015-05-06 17:07:21,388 INFO  [Log] Entering country for shipping details 
-2015-05-06 17:07:21,561 INFO  [Log] Entering Mobile Number for shipping details 
-2015-05-06 17:07:21,757 INFO  [Log] Entering alias address for shipping details 
-2015-05-06 17:07:25,658 INFO  [Log] Clicking on Register button 
-2015-05-06 17:07:30,374 INFO  [Log] Logout form the application 
-2015-05-06 17:07:30,691 INFO  [Log] Click action is perfromed on My Account link 
-2015-05-06 17:07:33,905 INFO  [Log]  entered in UserName text box 
-2015-05-06 17:07:34,118 INFO  [Log]  entered in Password text box 
-2015-05-06 17:07:38,723 INFO  [Log] Click action is performed on Submit button 
-2015-05-06 17:07:39,723 INFO  [Log] SignInAction performed succesfully 
-2015-05-06 17:07:39,734 INFO  [Log] Moving to product listing page by clicking on the submenu 
-2015-05-06 17:07:48,998 INFO  [Log] Adding a product to cart 
-2015-05-06 17:07:49,829 INFO  [Log] purchesing the seleted product 
-2015-05-06 17:07:54,575 INFO  [Log] proceedToCheckOutInSummaryPage 
-2015-05-06 17:07:56,390 INFO  [Log] proceedToCheckOutInAddressDetailPage 
-2015-05-06 17:07:58,388 INFO  [Log] proceedTOCheckOutConfirmShippingPage 
-2015-05-06 17:07:58,621 INFO  [Log] payByCheque 
-2015-05-06 17:08:02,202 INFO  [Log] iConfirmMyOrder 
-2015-05-06 17:08:02,831 INFO  [Log] Closing the browser 
+2015-05-08 16:04:56,439 INFO  [Log] Openign the browser with the given URL 
+2015-05-08 16:04:56,981 INFO  [Log] clickOnLogo element is found 
+2015-05-08 16:05:00,189 INFO  [Log] Selecting a product form home page and moving to detail about the product 
+2015-05-08 16:05:01,305 INFO  [Log] Continue Shopping 
+2015-05-08 16:05:02,005 INFO  [Log] Selecting a product form home page and moving to detail about the product 
+2015-05-08 16:05:02,927 INFO  [Log] Continue Shopping 
+2015-05-08 16:05:03,289 INFO  [Log] The titiel is Blouse 
+2015-05-08 16:05:03,399 INFO  [Log] The titiel is Faded Short Sleeve T-shirts 
+2015-05-08 16:05:03,399 INFO  [Log] Selected item is not in cart 
+2015-05-08 16:05:16,559 INFO  [Log] Closing the browser 
+2015-05-08 16:39:24,801 INFO  [Log] Openign the browser with the given URL 
+2015-05-08 16:39:25,313 INFO  [Log] clickOnLogo element is found 
+2015-05-08 16:39:28,425 INFO  [Log] Selecting a product form home page and moving to detail about the product 
+2015-05-08 16:39:29,575 INFO  [Log] Continue Shopping 
+2015-05-08 16:39:30,205 INFO  [Log] Selecting a product form home page and moving to detail about the product 
+2015-05-08 16:39:30,985 INFO  [Log] Continue Shopping 
+2015-05-08 16:39:31,345 INFO  [Log] The titiel is Blouse 
+2015-05-08 16:39:31,465 INFO  [Log] Selected item is not in cart 
+2015-05-08 16:39:34,370 INFO  [Log] Closing the browser 
+2015-05-08 16:40:37,572 INFO  [Log] Openign the browser with the given URL 
+2015-05-08 16:40:38,106 INFO  [Log] clickOnLogo element is found 
+2015-05-08 16:40:41,255 INFO  [Log] Selecting a product form home page and moving to detail about the product 
+2015-05-08 16:40:42,313 INFO  [Log] Continue Shopping 
+2015-05-08 16:40:42,978 INFO  [Log] Selecting a product form home page and moving to detail about the product 
+2015-05-08 16:40:43,733 INFO  [Log] Continue Shopping 
+2015-05-08 16:40:44,098 INFO  [Log] The titiel is Blouse 
+2015-05-08 16:40:44,218 INFO  [Log] The titiel is Faded Short Sleeve T-shirts 
+2015-05-08 16:40:44,218 INFO  [Log] Selected item is not in cart 
+2015-05-08 16:40:47,275 INFO  [Log] Closing the browser 

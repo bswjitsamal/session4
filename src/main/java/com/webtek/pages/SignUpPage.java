@@ -34,12 +34,6 @@ public class SignUpPage {
 	@FindBy(how = How.ID, using = "years")
 	public static WebElement years;
 
-	@FindBy(how = How.ID, using = "firstname")
-	public static WebElement myfirstname;
-
-	@FindBy(how = How.ID, using = "lastname")
-	public static WebElement mylastname;
-
 	@FindBy(how = How.ID, using = "company")
 	public static WebElement mycompany;
 

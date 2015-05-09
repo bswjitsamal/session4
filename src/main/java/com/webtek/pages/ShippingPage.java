@@ -18,4 +18,7 @@ public class ShippingPage {
 	
 	@FindBy(how=How.CSS,using=".button.btn.btn-default.standard-checkout.button-medium")
 	public static WebElement proceedTOCheckOutConfirmShippingPage;
+	
+	@FindBy(how=How.CSS,using=".fancybox-item.fancybox-close")
+	public static WebElement cancelAlertMessage;
 }

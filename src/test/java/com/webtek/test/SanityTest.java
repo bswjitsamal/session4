@@ -29,8 +29,14 @@ public class SanityTest extends SelTestCase {
 		PageFactory.initElements(driver, HomePage.class);
 		PageFactory.initElements(driver, LoginPage.class);
 
-		SignInAction.execute();
-		Log.info("SignInAction performed succesfully");
+		try {
+			SignInAction.execute();
+			Log.info("SignInAction performed succesfully");
+		} catch (Exception e) {
+			Log.error("SignInAction dose not perform succesfully");
+			e.printStackTrace();
+		}
+
 	}
 
 	@Test
@@ -41,8 +47,24 @@ public class SanityTest extends SelTestCase {
 		PageFactory.initElements(driver, SignUpPage.class);
 		PageFactory.initElements(driver, LogOutPage.class);
 
-		SignUpAction.execute();
-		SignOutAction.execute();
+		try {
+
+			Log.startTestCase("sTestCaseName");
+			SignUpAction.execute();
+
+		} catch (Exception e) {
+			Log.error("SignUpAction dose not perform successfully");
+			e.printStackTrace();
+		}
+
+		try {
+			SignOutAction.execute();
+			Log.info("SignOutAction perform successfully");
+		} catch (Exception e) {
+			Log.error("SignOutAction dose not perform successfully");
+			e.printStackTrace();
+		}
+
 	}
 
 	@Test(dependsOnMethods = "signUser", priority = 3)
@@ -56,7 +78,16 @@ public class SanityTest extends SelTestCase {
 		PageFactory.initElements(driver, PaymentMethodPage.class);
 		PageFactory.initElements(driver, OrderSummaryPage.class);
 
-		PurcheseAction.execuite();
+		try {
+
+			PurcheseAction.execuite();
+			Log.info("PurcheseActio perform successfully");
+			Log.endTestCase("sTestCaseName");
+
+		} catch (Exception e) {
+			Log.error("PurcheseAction dose not perform successfully");
+		}
+
 	}
 
 }

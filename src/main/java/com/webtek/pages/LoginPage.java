@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
+import com.webtek.helper.Log;
+
 public class LoginPage {
 
 	private WebDriver driver;
@@ -15,17 +17,17 @@ public class LoginPage {
 	}
 	
 	@FindBy(how=How.ID, using="email")
-	public static WebElement email;
+	public static WebElement enterEmail;
 	
 	@FindBy(how=How.ID, using="passwd")
-	public static WebElement password;
+	public static WebElement enterPassword;
 	
 	@FindBy(how=How.ID, using="SubmitLogin")
 	public static WebElement signin_button;
 	
 
 	@FindBy(how=How.ID, using="email_create")
-	public static WebElement email_create;
+	public static WebElement registerNewEmail;
 
 	@FindBy(how=How.ID, using="SubmitCreate")
 	public static WebElement submit_create;
@@ -35,6 +37,12 @@ public class LoginPage {
 	
 	@FindBy(how=How.ID, using="SubmitCreate")
 	public static WebElement submitCreate;
+	
+	@FindBy(how=How.ID,using="create_account_error")
+	public static boolean emailAlreadyRegistered;
+	
+	@FindBy(how=How.CSS,using=".alert.alert-danger")
+	public static boolean invalidLoginAlert;
 	
 	
 	

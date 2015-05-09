@@ -11,8 +11,8 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.Augmenter;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.*;
+
 import com.webtek.helper.Log;
 
 public class SelTestCase {
@@ -22,23 +22,33 @@ public class SelTestCase {
 	static Random rand = new Random();
 	protected static String email = rand.nextInt(100) + "@t.com";
 
-	@BeforeClass
+	@BeforeSuite
 	public void SetUp() throws Exception {
 		DOMConfigurator.configure("log4j.xml");
-		driver = new FirefoxDriver();
-		driver.get("http://automationpractice.com/index.php");
-		Log.info("Openign the browser with the given URL");
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		try {
+			driver = new FirefoxDriver();
+			driver.get("http://automationpractice.com/index.php");
+			Log.info("Openign the browser with the given URL");
+			driver.manage().window().maximize();
+			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		} catch (Exception e) {
+			Log.error("Opening browser is not happening");
+			throw (e);
+		}
+
 	}
 
-	@AfterClass
+	@AfterSuite
 	public void tearDown() {
+		try {
+			captureScreen();
+			driver.close();
+			driver.quit();
+			Log.info("Closing the browser");
+		} catch (Exception e) {
+			Log.error("closing browser is not happening");
+		}
 
-		captureScreen();
-		driver.close();
-		driver.quit();
-		Log.info("Closing the browser");
 	}
 
 	public String captureScreen() {
