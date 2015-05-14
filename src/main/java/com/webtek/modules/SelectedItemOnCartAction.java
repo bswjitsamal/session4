@@ -1,13 +1,15 @@
 package com.webtek.modules;
 
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
-
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import com.webtek.helper.Log;
 import com.webtek.pages.HomePage;
 import com.webtek.test.SelTestCase;
@@ -28,7 +30,10 @@ public class SelectedItemOnCartAction extends SelTestCase {
 			throw (e);
 		}
 
-		// Adding ShortSleeveTShirt to cart
+		/**
+		 * ADDING 1ST PRODUCT CART FORM HOME PAGE
+		 */
+
 		try {
 			Actions action = new Actions(driver);
 			WebElement selectItem = HomePage.BobyPage.shortSleeveTShirt;
@@ -43,7 +48,9 @@ public class SelectedItemOnCartAction extends SelTestCase {
 			throw (e);
 		}
 
-		// Adding Blouse to cart
+		/**
+		 * ADDMING 2ND PRODUCT TO THE CART FORM HOME PAGE
+		 */
 
 		try {
 			Actions action = new Actions(driver);
@@ -59,29 +66,92 @@ public class SelectedItemOnCartAction extends SelTestCase {
 			throw (e);
 		}
 
-		// Checking the selected item should be on car.
+		/**
+		 * CHECKING THE SELECTED ITEM SHOULD BE ON MINI CART
+		 */
 
-		String selectedProductTitle = HomePage.BobyPage.blouseproducTitle
-				.getAttribute("title");
-		Log.info("The titiel is " + selectedProductTitle);
+		Actions action = new Actions(driver);
+		action.moveToElement(HomePage.HeaderPage.moveToCart).build().perform();// MouseOver
+																				// on
+																				// Cart
 
-	
-		for(int i=1;i<n;i++){
-			
-			String productTitleInCart = HomePage.HeaderPage.productTitleInMiniCart.getAttribute("title");
+		/**
+		 * EXPLICIT WAIT
+		 */
+
+		ExpectedCondition<Boolean> e = new ExpectedCondition<Boolean>() {
+
+			public Boolean apply(WebDriver driver) {
+				driver.findElements(By.className("cart_block_product_name"));
+				return Boolean.valueOf(true);
+			}
+
+		};
+
+		WebDriverWait wait = new WebDriverWait(driver, 5);
+		wait.until(e);
+
+		// elements = new ArrayList<WebElement>();
+		elements = HomePage.HeaderPage.productTitleInMiniCart;
+		for (WebElement element : elements) {
+
+			String title = element.getAttribute("title");
+
+			String selectedProductTitle = HomePage.BobyPage.shortSleeveTShirtProductTitle
+					.getAttribute("title");
+			Log.info("Selected product titiel is------> "
+					+ selectedProductTitle);
+
+			if (selectedProductTitle.equals(title)) {
+				Log.info("Product title in cart------>" + title);
+				Log.info("product Title Matches");
+				break;
+			} else {
+				Log.info("Product title in cart------>" + title);
+				Log.info("Selected item is not in cart");
+			}
+
 		}
-		String productTitleInCart = HomePage.HeaderPage.productTitleInMiniCart.getAttribute("title");
+
+		/**
+		 * Checking the Summation of the amount in minicart.
+		 */
+
+		elements = (List<WebElement>) HomePage.HeaderPage.productPriceInMiniCart;
+		float totalPrice = 0;
+		for (WebElement element : elements) {
+			String price = element.getText().replace("$", "")
+					.replaceFirst(",", "");
+			float allPrice = Float.parseFloat(price);
+
+			Log.info("The prices of individual item is --->" + allPrice);
+			totalPrice = totalPrice + allPrice;
+		}
+
+		Log.info("totalPrice is -->" + totalPrice);
+		System.out.println(totalPrice);
+		DecimalFormat df = new DecimalFormat("##.##");
+		df.setRoundingMode(RoundingMode.DOWN);
+		float expectedAmount = totalPrice + 2;
+		Log.info("The expected price is-->" + df.format(expectedAmount));
+
+
+		String actualPrice = HomePage.HeaderPage.totalPrice.getText().replace("$", "")
+				.replaceFirst(",", "");
+		float actualAmount = Float.parseFloat(actualPrice);
+		Log.info("The Actual price is-->" +actualAmount);
+
+
+		/**
+		 * COMPARING THE TWO PRICE AND ASSERTING THEY ARE SAME OR NOT
+		 */
 		
-		Log.info("The titiel is " + productTitleInCart);
-		
-		if (selectedProductTitle.equals(productTitleInCart)) {
-			Log.info("product Title Matches");
+		float epsilon = 000002;
+		if (Math.abs(expectedAmount - actualAmount) < epsilon) {
+			Log.info("The summation of price is done correctly");
 		} else {
-			Log.info("Selected item is not in cart");
+			Log.info("The summation of price is not done correctly");
 		}
-
-	
 
 	}
-
 }

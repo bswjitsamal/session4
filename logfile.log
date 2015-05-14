@@ -1,29 +1,69 @@
-2015-05-08 16:04:56,439 INFO  [Log] Openign the browser with the given URL 
-2015-05-08 16:04:56,981 INFO  [Log] clickOnLogo element is found 
-2015-05-08 16:05:00,189 INFO  [Log] Selecting a product form home page and moving to detail about the product 
-2015-05-08 16:05:01,305 INFO  [Log] Continue Shopping 
-2015-05-08 16:05:02,005 INFO  [Log] Selecting a product form home page and moving to detail about the product 
-2015-05-08 16:05:02,927 INFO  [Log] Continue Shopping 
-2015-05-08 16:05:03,289 INFO  [Log] The titiel is Blouse 
-2015-05-08 16:05:03,399 INFO  [Log] The titiel is Faded Short Sleeve T-shirts 
-2015-05-08 16:05:03,399 INFO  [Log] Selected item is not in cart 
-2015-05-08 16:05:16,559 INFO  [Log] Closing the browser 
-2015-05-08 16:39:24,801 INFO  [Log] Openign the browser with the given URL 
-2015-05-08 16:39:25,313 INFO  [Log] clickOnLogo element is found 
-2015-05-08 16:39:28,425 INFO  [Log] Selecting a product form home page and moving to detail about the product 
-2015-05-08 16:39:29,575 INFO  [Log] Continue Shopping 
-2015-05-08 16:39:30,205 INFO  [Log] Selecting a product form home page and moving to detail about the product 
-2015-05-08 16:39:30,985 INFO  [Log] Continue Shopping 
-2015-05-08 16:39:31,345 INFO  [Log] The titiel is Blouse 
-2015-05-08 16:39:31,465 INFO  [Log] Selected item is not in cart 
-2015-05-08 16:39:34,370 INFO  [Log] Closing the browser 
-2015-05-08 16:40:37,572 INFO  [Log] Openign the browser with the given URL 
-2015-05-08 16:40:38,106 INFO  [Log] clickOnLogo element is found 
-2015-05-08 16:40:41,255 INFO  [Log] Selecting a product form home page and moving to detail about the product 
-2015-05-08 16:40:42,313 INFO  [Log] Continue Shopping 
-2015-05-08 16:40:42,978 INFO  [Log] Selecting a product form home page and moving to detail about the product 
-2015-05-08 16:40:43,733 INFO  [Log] Continue Shopping 
-2015-05-08 16:40:44,098 INFO  [Log] The titiel is Blouse 
-2015-05-08 16:40:44,218 INFO  [Log] The titiel is Faded Short Sleeve T-shirts 
-2015-05-08 16:40:44,218 INFO  [Log] Selected item is not in cart 
-2015-05-08 16:40:47,275 INFO  [Log] Closing the browser 
+2015-05-14 12:08:51,266 INFO  [Log] Openign the browser with the given URL 
+2015-05-14 12:08:51,838 INFO  [Log] clickOnLogo element is found 
+2015-05-14 12:08:55,623 INFO  [Log] Selecting a product form home page and moving to detail about the product 
+2015-05-14 12:08:56,715 INFO  [Log] Continue Shopping 
+2015-05-14 12:08:57,371 INFO  [Log] Selecting a product form home page and moving to detail about the product 
+2015-05-14 12:08:58,201 INFO  [Log] Continue Shopping 
+2015-05-14 12:08:59,203 INFO  [Log] The titiel is------> Faded Short Sleeve T-shirts 
+2015-05-14 12:08:59,203 INFO  [Log] product Title Matches 
+2015-05-14 12:09:02,315 INFO  [Log] Closing the browser 
+2015-05-14 12:36:28,122 INFO  [Log] Openign the browser with the given URL 
+2015-05-14 12:36:28,644 INFO  [Log] clickOnLogo element is found 
+2015-05-14 12:36:32,239 INFO  [Log] Selecting a product form home page and moving to detail about the product 
+2015-05-14 12:36:33,389 INFO  [Log] Continue Shopping 
+2015-05-14 12:36:34,073 INFO  [Log] Selecting a product form home page and moving to detail about the product 
+2015-05-14 12:36:34,923 INFO  [Log] Continue Shopping 
+2015-05-14 12:36:35,975 INFO  [Log] Selected product titiel is------> Faded Short Sleeve T-shirts 
+2015-05-14 12:36:35,975 INFO  [Log] Product title in cart------>Faded Short Sleeve T-shirts 
+2015-05-14 12:36:35,975 INFO  [Log] product Title Matches 
+2015-05-14 12:36:36,095 INFO  [Log] The list of prices are16.51 
+2015-05-14 12:36:36,151 INFO  [Log] The list of prices are27.0 
+2015-05-14 12:36:36,151 INFO  [Log] totalPrice is -->43.510002 
+2015-05-14 12:36:36,161 INFO  [Log] Final price is-->45.51 
+2015-05-14 12:36:36,281 INFO  [Log] The summation of price is done correctly 
+2015-05-14 12:36:39,117 INFO  [Log] Closing the browser 
+2015-05-14 12:39:02,900 INFO  [Log] Openign the browser with the given URL 
+2015-05-14 12:39:03,442 INFO  [Log] clickOnLogo element is found 
+2015-05-14 12:39:06,606 INFO  [Log] Selecting a product form home page and moving to detail about the product 
+2015-05-14 12:39:07,746 INFO  [Log] Continue Shopping 
+2015-05-14 12:39:08,366 INFO  [Log] Selecting a product form home page and moving to detail about the product 
+2015-05-14 12:39:09,358 INFO  [Log] Continue Shopping 
+2015-05-14 12:39:10,315 INFO  [Log] Selected product titiel is------> Faded Short Sleeve T-shirts 
+2015-05-14 12:39:10,315 INFO  [Log] Product title in cart------>Faded Short Sleeve T-shirts 
+2015-05-14 12:39:10,315 INFO  [Log] product Title Matches 
+2015-05-14 12:39:10,435 INFO  [Log] The list of prices are16.51 
+2015-05-14 12:39:10,496 INFO  [Log] The list of prices are27.0 
+2015-05-14 12:39:10,506 INFO  [Log] Final price is-->45.51 
+2015-05-14 12:39:10,637 INFO  [Log] The summation of price is done correctly 
+2015-05-14 12:39:13,392 INFO  [Log] Closing the browser 
+2015-05-14 12:45:45,534 INFO  [Log] Openign the browser with the given URL 
+2015-05-14 12:45:46,086 INFO  [Log] clickOnLogo element is found 
+2015-05-14 12:45:49,301 INFO  [Log] Selecting a product form home page and moving to detail about the product 
+2015-05-14 12:45:50,618 INFO  [Log] Continue Shopping 
+2015-05-14 12:45:51,566 INFO  [Log] Selecting a product form home page and moving to detail about the product 
+2015-05-14 12:45:52,644 INFO  [Log] Continue Shopping 
+2015-05-14 12:45:53,564 INFO  [Log] Selected product titiel is------> Faded Short Sleeve T-shirts 
+2015-05-14 12:45:53,564 INFO  [Log] Product title in cart------>Faded Short Sleeve T-shirts 
+2015-05-14 12:45:53,564 INFO  [Log] product Title Matches 
+2015-05-14 12:45:53,694 INFO  [Log] The prices of individual item is --->16.51 
+2015-05-14 12:45:53,755 INFO  [Log] The prices of individual item is --->27.0 
+2015-05-14 12:45:53,765 INFO  [Log] The expected price is-->45.51 
+2015-05-14 12:45:53,885 INFO  [Log] The Actual price is-->45.51 
+2015-05-14 12:45:53,885 INFO  [Log] The summation of price is done correctly 
+2015-05-14 12:45:56,960 INFO  [Log] Closing the browser 
+2015-05-14 12:46:46,955 INFO  [Log] Openign the browser with the given URL 
+2015-05-14 12:46:47,467 INFO  [Log] clickOnLogo element is found 
+2015-05-14 12:46:50,708 INFO  [Log] Selecting a product form home page and moving to detail about the product 
+2015-05-14 12:46:51,822 INFO  [Log] Continue Shopping 
+2015-05-14 12:46:52,492 INFO  [Log] Selecting a product form home page and moving to detail about the product 
+2015-05-14 12:46:53,432 INFO  [Log] Continue Shopping 
+2015-05-14 12:46:54,392 INFO  [Log] Selected product titiel is------> Faded Short Sleeve T-shirts 
+2015-05-14 12:46:54,392 INFO  [Log] Product title in cart------>Faded Short Sleeve T-shirts 
+2015-05-14 12:46:54,392 INFO  [Log] product Title Matches 
+2015-05-14 12:46:54,522 INFO  [Log] The prices of individual item is --->16.51 
+2015-05-14 12:46:54,593 INFO  [Log] The prices of individual item is --->27.0 
+2015-05-14 12:46:54,593 INFO  [Log] totalPrice is -->43.510002 
+2015-05-14 12:46:54,603 INFO  [Log] The expected price is-->45.51 
+2015-05-14 12:46:54,708 INFO  [Log] The Actual price is-->45.51 
+2015-05-14 12:46:54,708 INFO  [Log] The summation of price is done correctly 
+2015-05-14 12:46:57,578 INFO  [Log] Closing the browser 

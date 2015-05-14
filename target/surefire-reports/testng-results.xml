@@ -1,123 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
-    <line>
-      <![CDATA[Clicking on SignIn link]]>
-    </line>
-    <line>
-      <![CDATA[Entering an email to register]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on Register button]]>
-    </line>
-    <line>
-      <![CDATA[Enterd password in the text field]]>
-    </line>
-    <line>
-      <![CDATA[Click action is perfromed on My Account link]]>
-    </line>
-    <line>
-      <![CDATA[ entered in UserName text box]]>
-    </line>
-    <line>
-      <![CDATA[ entered in Password text box]]>
-    </line>
-    <line>
-      <![CDATA[Click action is performed on Submit button]]>
-    </line>
-    <line>
-      <![CDATA[Adding a product to cart]]>
-    </line>
-    <line>
-      <![CDATA[purchesing the seleted product]]>
-    </line>
-    <line>
-      <![CDATA[proceedToCheckOutInSummaryPage]]>
-    </line>
-    <line>
-      <![CDATA[proceedToCheckOutInAddressDetailPage]]>
-    </line>
-    <line>
-      <![CDATA[proceedTOCheckOutConfirmShippingPage]]>
-    </line>
-    <line>
-      <![CDATA[payByCheque]]>
-    </line>
-    <line>
-      <![CDATA[iConfirmMyOrder]]>
-    </line>
   </reporter-output>
-  <suite name="TestSuite" duration-ms="554327" started-at="2015-05-07T08:42:29Z" finished-at="2015-05-07T08:51:44Z">
+  <suite name="TestSuite1" duration-ms="7988" started-at="2015-05-14T06:38:51Z" finished-at="2015-05-14T06:38:59Z">
     <groups>
     </groups>
-    <test name="Test in FF" duration-ms="554327" started-at="2015-05-07T08:42:29Z" finished-at="2015-05-07T08:51:44Z">
-      <class name="com.webtek.test.SanityTest">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.webtek.test.SanityTest@43a25848]" name="SetUp" is-config="true" duration-ms="12352" started-at="2015-05-07T14:12:29Z" finished-at="2015-05-07T14:12:42Z">
+    <test name="TestSuite2" duration-ms="7988" started-at="2015-05-14T06:38:51Z" finished-at="2015-05-14T06:38:59Z">
+      <class name="com.webtek.test.SanityTest1">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.webtek.test.SanityTest1@4c203ea1]" name="SetUp" is-config="true" duration-ms="12723" started-at="2015-05-14T12:08:38Z" finished-at="2015-05-14T12:08:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="userSignUp()[pri:0, instance:com.webtek.test.SanityTest@43a25848]" name="userSignUp" duration-ms="516722" started-at="2015-05-07T14:12:42Z" finished-at="2015-05-07T14:21:18Z">
+        <test-method status="PASS" signature="verifyItemPresentInCartAndSummation()[pri:0, instance:com.webtek.test.SanityTest1@4c203ea1]" name="verifyItemPresentInCartAndSummation" duration-ms="7968" started-at="2015-05-14T12:08:51Z" finished-at="2015-05-14T12:08:59Z">
           <reporter-output>
-            <line>
-              <![CDATA[Clicking on SignIn link]]>
-            </line>
-            <line>
-              <![CDATA[Entering an email to register]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on Register button]]>
-            </line>
-            <line>
-              <![CDATA[Enterd password in the text field]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- userSignUp -->
-        <test-method status="PASS" signature="signUser()[pri:0, instance:com.webtek.test.SanityTest@43a25848]" name="signUser" duration-ms="6915" started-at="2015-05-07T14:21:18Z" depends-on-methods="com.webtek.test.SanityTest.userSignUp" finished-at="2015-05-07T14:21:25Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Click action is perfromed on My Account link]]>
-            </line>
-            <line>
-              <![CDATA[ entered in UserName text box]]>
-            </line>
-            <line>
-              <![CDATA[ entered in Password text box]]>
-            </line>
-            <line>
-              <![CDATA[Click action is performed on Submit button]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- signUser -->
-        <test-method status="PASS" signature="productCheckOut()[pri:0, instance:com.webtek.test.SanityTest@43a25848]" name="productCheckOut" duration-ms="17548" started-at="2015-05-07T14:21:25Z" depends-on-methods="com.webtek.test.SanityTest.signUser" finished-at="2015-05-07T14:21:43Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Adding a product to cart]]>
-            </line>
-            <line>
-              <![CDATA[purchesing the seleted product]]>
-            </line>
-            <line>
-              <![CDATA[proceedToCheckOutInSummaryPage]]>
-            </line>
-            <line>
-              <![CDATA[proceedToCheckOutInAddressDetailPage]]>
-            </line>
-            <line>
-              <![CDATA[proceedTOCheckOutConfirmShippingPage]]>
-            </line>
-            <line>
-              <![CDATA[payByCheque]]>
-            </line>
-            <line>
-              <![CDATA[iConfirmMyOrder]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- productCheckOut -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.webtek.test.SanityTest@43a25848]" name="tearDown" is-config="true" duration-ms="762" started-at="2015-05-07T14:21:43Z" finished-at="2015-05-07T14:21:44Z">
+        </test-method> <!-- verifyItemPresentInCartAndSummation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.webtek.test.SanityTest1@4c203ea1]" name="tearDown" is-config="true" duration-ms="2751" started-at="2015-05-14T12:08:59Z" finished-at="2015-05-14T12:09:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.webtek.test.SanityTest -->
-    </test> <!-- Test in FF -->
-  </suite> <!-- TestSuite -->
+      </class> <!-- com.webtek.test.SanityTest1 -->
+    </test> <!-- TestSuite2 -->
+  </suite> <!-- TestSuite1 -->
 </testng-results>

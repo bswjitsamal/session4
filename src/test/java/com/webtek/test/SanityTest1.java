@@ -47,6 +47,7 @@ public class SanityTest1 extends SelTestCase {
 		PageFactory.initElements(driver, HomePage.class);
 		PageFactory.initElements(driver, HomePage.BobyPage.class);
 		PageFactory.initElements(driver, HeaderPage.class);
+		PageFactory.initElements(driver, SummaryPage.class);
 		
 		SelectedItemOnCartAction.execute();
 	}

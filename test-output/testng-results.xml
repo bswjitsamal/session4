@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="TestSuite1" duration-ms="6374" started-at="2015-05-08T11:10:37Z" finished-at="2015-05-08T11:10:44Z">
+  <suite name="TestSuite1" duration-ms="7513" started-at="2015-05-14T07:16:47Z" finished-at="2015-05-14T07:16:54Z">
     <groups>
     </groups>
-    <test name="TestSuite2" duration-ms="6374" started-at="2015-05-08T11:10:37Z" finished-at="2015-05-08T11:10:44Z">
+    <test name="TestSuite2" duration-ms="7513" started-at="2015-05-14T07:16:47Z" finished-at="2015-05-14T07:16:54Z">
       <class name="com.webtek.test.SanityTest1">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.webtek.test.SanityTest1@1888ff2c]" name="SetUp" is-config="true" duration-ms="11086" started-at="2015-05-08T16:40:26Z" finished-at="2015-05-08T16:40:37Z">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.webtek.test.SanityTest1@649d209a]" name="SetUp" is-config="true" duration-ms="11357" started-at="2015-05-14T12:46:35Z" finished-at="2015-05-14T12:46:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="verifyItemPresentInCartAndSummation()[pri:0, instance:com.webtek.test.SanityTest1@1888ff2c]" name="verifyItemPresentInCartAndSummation" duration-ms="6364" started-at="2015-05-08T16:40:37Z" finished-at="2015-05-08T16:40:44Z">
+        <test-method status="PASS" signature="verifyItemPresentInCartAndSummation()[pri:0, instance:com.webtek.test.SanityTest1@649d209a]" name="verifyItemPresentInCartAndSummation" duration-ms="7493" started-at="2015-05-14T12:46:47Z" finished-at="2015-05-14T12:46:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyItemPresentInCartAndSummation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.webtek.test.SanityTest1@1888ff2c]" name="tearDown" is-config="true" duration-ms="2979" started-at="2015-05-08T16:40:44Z" finished-at="2015-05-08T16:40:47Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.webtek.test.SanityTest1@649d209a]" name="tearDown" is-config="true" duration-ms="2830" started-at="2015-05-14T12:46:54Z" finished-at="2015-05-14T12:46:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

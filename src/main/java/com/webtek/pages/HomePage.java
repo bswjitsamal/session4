@@ -1,5 +1,7 @@
 package com.webtek.pages;
 
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -25,6 +27,9 @@ public class HomePage {
 
 	@FindBy(how = How.CSS, using = ".logo.img-responsive")
 	public static WebElement clickOnLogo;
+	
+	@FindBy(how= How.XPATH,using=".//*[@class='products']/dt[starts-with(@data-id,'cart_block_product_')]/div/span")
+	public static WebElement priceOnCart;
 
 	public static class HeaderPage {
 
@@ -40,13 +45,14 @@ public class HomePage {
 		@FindBy(how = How.CSS, using = ".shopping_cart>a")
 		public static WebElement moveToCart;
 
-		@FindBy(how = How.CSS, using = ".shopping_cart>a")
-		public static WebElement productInMiniCart;
+		@FindBy(how = How.CSS, using = ".cart_block_product_name")
+		public static List<WebElement> productTitleInMiniCart;
 		
-		@FindBy(how=How.CSS,using=".shopping_cart>div>div>div>dl ")
-		public static WebElement listOfItemsInCart;
+		@FindBy(how=How.CSS,using="dt>div>.price")
+		public static List<WebElement> productPriceInMiniCart;
 		
-		@FindBy(How.CSS,using=".shopping_cart>div>div>div>dl>dt:nth-of-type(1)")
+		@FindBy(how=How.CSS,using=".price.cart_block_total.ajax_block_cart_total")
+		public static WebElement totalPrice;
 
 		public static class DressesPage {
 
@@ -62,7 +68,7 @@ public class HomePage {
 		@FindBy(how = How.CSS, using = "#homefeatured>li:nth-of-type(1)")
 		public static WebElement shortSleeveTShirt;
 
-		@FindBy(how = How.CSS, using = "#center_column>ul>li:nth-of-type(1)>div>div:nth-of-type(2)>h5>a")
+		@FindBy(how = How.CSS, using = "#homefeatured>li:nth-of-type(1)>div>div:nth-of-type(2)>h5>a")
 		public static WebElement shortSleeveTShirtProductTitle;
 
 		@FindBy(how = How.CSS, using = "#homefeatured>li:nth-of-type(1)>div>div:nth-of-type(2)>div:nth-of-type(2)>a:nth-of-type(2)>span")
@@ -81,7 +87,7 @@ public class HomePage {
 		public static WebElement blouseAddToCart;
 
 		@FindBy(how = How.CSS, using = "#homefeatured>li:nth-of-type(2)>div>div:nth-of-type(2)>h5>a")
-		public static WebElement blouseproducTitle;
+		public static WebElement blouseProducTitle;
 
 		@FindBy(how = How.CSS, using = "#homefeatured>li:nth-of-type(3)")
 		public static WebElement printedDress;
