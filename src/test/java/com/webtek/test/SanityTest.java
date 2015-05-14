@@ -82,7 +82,7 @@ public class SanityTest extends SelTestCase {
 
 			PurcheseAction.execuite();
 			Log.info("PurcheseActio perform successfully");
-			Log.endTestCase("sTestCaseName");
+			//Log.endTestCase("sTestCaseName");
 
 		} catch (Exception e) {
 			Log.error("PurcheseAction dose not perform successfully");

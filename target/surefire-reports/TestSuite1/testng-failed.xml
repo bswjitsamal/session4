@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [TestSuite1]">
+  <test name="Test in FF(failed)">
+    <classes>
+      <class name="com.webtek.test.SanityTest">
+        <methods>
+          <include name="productCheckOut"/>
+          <include name="userSignUp"/>
+          <include name="signUser"/>
+        </methods>
+      </class> <!-- com.webtek.test.SanityTest -->
+      <class name="com.webtek.test.SanityTest1">
+        <methods>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.webtek.test.SanityTest1 -->
+    </classes>
+  </test> <!-- Test in FF(failed) -->
+  <test name="TestSuite2(failed)">
+    <classes>
+      <class name="com.webtek.test.SanityTest1">
+        <methods>
+          <include name="verifyItemPresentInCartAndSummation"/>
+          <include name="SetUp"/>
+          <include name="firstAddProductThenCheckOutWithSign"/>
+        </methods>
+      </class> <!-- com.webtek.test.SanityTest1 -->
+    </classes>
+  </test> <!-- TestSuite2(failed) -->
+</suite> <!-- Failed suite [TestSuite1] -->

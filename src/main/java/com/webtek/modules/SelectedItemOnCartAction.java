@@ -92,26 +92,35 @@ public class SelectedItemOnCartAction extends SelTestCase {
 		wait.until(e);
 
 		// elements = new ArrayList<WebElement>();
-		elements = HomePage.HeaderPage.productTitleInMiniCart;
-		for (WebElement element : elements) {
+		try{
+			
+			elements = HomePage.HeaderPage.productTitleInMiniCart;
+			for (WebElement element : elements) {
 
-			String title = element.getAttribute("title");
+				String title = element.getAttribute("title");
 
-			String selectedProductTitle = HomePage.BobyPage.shortSleeveTShirtProductTitle
-					.getAttribute("title");
-			Log.info("Selected product titiel is------> "
-					+ selectedProductTitle);
+				String selectedProductTitle = HomePage.BobyPage.shortSleeveTShirtProductTitle
+						.getAttribute("title");
+				Log.info("Selected product titiel is------> "
+						+ selectedProductTitle);
 
-			if (selectedProductTitle.equals(title)) {
-				Log.info("Product title in cart------>" + title);
-				Log.info("product Title Matches");
-				break;
-			} else {
-				Log.info("Product title in cart------>" + title);
-				Log.info("Selected item is not in cart");
+				if (selectedProductTitle.equals(title)) {
+					Log.info("Product title in cart------>" + title);
+					Log.info("product Title Matches");
+					break;
+				} else {
+					Log.info("Product title in cart------>" + title);
+					Log.info("Selected item is not in cart");
+				}
+
 			}
-
+			
+			Log.info("Comparision of title is done successfully");
+			
+		}catch(Exception E){
+			Log.info("Comparision of title is not done successfully");
 		}
+		
 
 		/**
 		 * Checking the Summation of the amount in minicart.

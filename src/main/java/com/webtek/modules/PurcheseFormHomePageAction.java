@@ -131,7 +131,7 @@ public class PurcheseFormHomePageAction extends SelTestCase {
 		}
 
 		try {
-			LoginPage.enterEmail.sendKeys("88@t.com");
+			LoginPage.enterEmail.sendKeys(email);
 			Log.info("enterEmail element found");
 		} catch (Exception e) {
 			Log.info("enterEmail element is not found");

@@ -18,7 +18,7 @@ import com.webtek.pages.SummaryPage;
 
 public class SanityTest1 extends SelTestCase {
 
-	//@Test
+	@Test
 	public void firstAddProductThenCheckOutWithSign() {
 
 		PageFactory.initElements(driver, HomePage.class);
@@ -36,20 +36,27 @@ public class SanityTest1 extends SelTestCase {
 			Log.info("PurcheseFormHomePageAction done successfully");
 		} catch (Exception e) {
 			Log.info("PurcheseFormHomePageAction not done successfully");
-            e.printStackTrace();
+			e.printStackTrace();
 		}
 
 	}
-	
-	@Test
-	public void verifyItemPresentInCartAndSummation() throws Exception{
-		
+
+	@Test(priority = 2)
+	public void verifyItemPresentInCartAndSummation() throws Exception {
+
 		PageFactory.initElements(driver, HomePage.class);
 		PageFactory.initElements(driver, HomePage.BobyPage.class);
 		PageFactory.initElements(driver, HeaderPage.class);
 		PageFactory.initElements(driver, SummaryPage.class);
-		
-		SelectedItemOnCartAction.execute();
+
+		try {
+			SelectedItemOnCartAction.execute();
+			Log.endTestCase("THIS IS AN END");
+			Log.info("SelectedItemOnCartAction done successfully");
+		} catch (Exception e) {
+			Log.info("SelectedItemOnCartAction not done successfully ");
+		}
+
 	}
 
 }

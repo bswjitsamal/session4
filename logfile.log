@@ -1,69 +1,93 @@
-2015-05-14 12:08:51,266 INFO  [Log] Openign the browser with the given URL 
-2015-05-14 12:08:51,838 INFO  [Log] clickOnLogo element is found 
-2015-05-14 12:08:55,623 INFO  [Log] Selecting a product form home page and moving to detail about the product 
-2015-05-14 12:08:56,715 INFO  [Log] Continue Shopping 
-2015-05-14 12:08:57,371 INFO  [Log] Selecting a product form home page and moving to detail about the product 
-2015-05-14 12:08:58,201 INFO  [Log] Continue Shopping 
-2015-05-14 12:08:59,203 INFO  [Log] The titiel is------> Faded Short Sleeve T-shirts 
-2015-05-14 12:08:59,203 INFO  [Log] product Title Matches 
-2015-05-14 12:09:02,315 INFO  [Log] Closing the browser 
-2015-05-14 12:36:28,122 INFO  [Log] Openign the browser with the given URL 
-2015-05-14 12:36:28,644 INFO  [Log] clickOnLogo element is found 
-2015-05-14 12:36:32,239 INFO  [Log] Selecting a product form home page and moving to detail about the product 
-2015-05-14 12:36:33,389 INFO  [Log] Continue Shopping 
-2015-05-14 12:36:34,073 INFO  [Log] Selecting a product form home page and moving to detail about the product 
-2015-05-14 12:36:34,923 INFO  [Log] Continue Shopping 
-2015-05-14 12:36:35,975 INFO  [Log] Selected product titiel is------> Faded Short Sleeve T-shirts 
-2015-05-14 12:36:35,975 INFO  [Log] Product title in cart------>Faded Short Sleeve T-shirts 
-2015-05-14 12:36:35,975 INFO  [Log] product Title Matches 
-2015-05-14 12:36:36,095 INFO  [Log] The list of prices are16.51 
-2015-05-14 12:36:36,151 INFO  [Log] The list of prices are27.0 
-2015-05-14 12:36:36,151 INFO  [Log] totalPrice is -->43.510002 
-2015-05-14 12:36:36,161 INFO  [Log] Final price is-->45.51 
-2015-05-14 12:36:36,281 INFO  [Log] The summation of price is done correctly 
-2015-05-14 12:36:39,117 INFO  [Log] Closing the browser 
-2015-05-14 12:39:02,900 INFO  [Log] Openign the browser with the given URL 
-2015-05-14 12:39:03,442 INFO  [Log] clickOnLogo element is found 
-2015-05-14 12:39:06,606 INFO  [Log] Selecting a product form home page and moving to detail about the product 
-2015-05-14 12:39:07,746 INFO  [Log] Continue Shopping 
-2015-05-14 12:39:08,366 INFO  [Log] Selecting a product form home page and moving to detail about the product 
-2015-05-14 12:39:09,358 INFO  [Log] Continue Shopping 
-2015-05-14 12:39:10,315 INFO  [Log] Selected product titiel is------> Faded Short Sleeve T-shirts 
-2015-05-14 12:39:10,315 INFO  [Log] Product title in cart------>Faded Short Sleeve T-shirts 
-2015-05-14 12:39:10,315 INFO  [Log] product Title Matches 
-2015-05-14 12:39:10,435 INFO  [Log] The list of prices are16.51 
-2015-05-14 12:39:10,496 INFO  [Log] The list of prices are27.0 
-2015-05-14 12:39:10,506 INFO  [Log] Final price is-->45.51 
-2015-05-14 12:39:10,637 INFO  [Log] The summation of price is done correctly 
-2015-05-14 12:39:13,392 INFO  [Log] Closing the browser 
-2015-05-14 12:45:45,534 INFO  [Log] Openign the browser with the given URL 
-2015-05-14 12:45:46,086 INFO  [Log] clickOnLogo element is found 
-2015-05-14 12:45:49,301 INFO  [Log] Selecting a product form home page and moving to detail about the product 
-2015-05-14 12:45:50,618 INFO  [Log] Continue Shopping 
-2015-05-14 12:45:51,566 INFO  [Log] Selecting a product form home page and moving to detail about the product 
-2015-05-14 12:45:52,644 INFO  [Log] Continue Shopping 
-2015-05-14 12:45:53,564 INFO  [Log] Selected product titiel is------> Faded Short Sleeve T-shirts 
-2015-05-14 12:45:53,564 INFO  [Log] Product title in cart------>Faded Short Sleeve T-shirts 
-2015-05-14 12:45:53,564 INFO  [Log] product Title Matches 
-2015-05-14 12:45:53,694 INFO  [Log] The prices of individual item is --->16.51 
-2015-05-14 12:45:53,755 INFO  [Log] The prices of individual item is --->27.0 
-2015-05-14 12:45:53,765 INFO  [Log] The expected price is-->45.51 
-2015-05-14 12:45:53,885 INFO  [Log] The Actual price is-->45.51 
-2015-05-14 12:45:53,885 INFO  [Log] The summation of price is done correctly 
-2015-05-14 12:45:56,960 INFO  [Log] Closing the browser 
-2015-05-14 12:46:46,955 INFO  [Log] Openign the browser with the given URL 
-2015-05-14 12:46:47,467 INFO  [Log] clickOnLogo element is found 
-2015-05-14 12:46:50,708 INFO  [Log] Selecting a product form home page and moving to detail about the product 
-2015-05-14 12:46:51,822 INFO  [Log] Continue Shopping 
-2015-05-14 12:46:52,492 INFO  [Log] Selecting a product form home page and moving to detail about the product 
-2015-05-14 12:46:53,432 INFO  [Log] Continue Shopping 
-2015-05-14 12:46:54,392 INFO  [Log] Selected product titiel is------> Faded Short Sleeve T-shirts 
-2015-05-14 12:46:54,392 INFO  [Log] Product title in cart------>Faded Short Sleeve T-shirts 
-2015-05-14 12:46:54,392 INFO  [Log] product Title Matches 
-2015-05-14 12:46:54,522 INFO  [Log] The prices of individual item is --->16.51 
-2015-05-14 12:46:54,593 INFO  [Log] The prices of individual item is --->27.0 
-2015-05-14 12:46:54,593 INFO  [Log] totalPrice is -->43.510002 
-2015-05-14 12:46:54,603 INFO  [Log] The expected price is-->45.51 
-2015-05-14 12:46:54,708 INFO  [Log] The Actual price is-->45.51 
-2015-05-14 12:46:54,708 INFO  [Log] The summation of price is done correctly 
-2015-05-14 12:46:57,578 INFO  [Log] Closing the browser 
+2015-05-14 14:47:54,117 INFO  [Log] Openign the browser with the given URL 
+2015-05-14 14:47:54,411 INFO  [Log] **************************************************************************************** 
+2015-05-14 14:47:54,411 INFO  [Log] **************************************************************************************** 
+2015-05-14 14:47:54,411 INFO  [Log]                                sTestCaseName                                        
+2015-05-14 14:47:54,411 INFO  [Log] **************************************************************************************** 
+2015-05-14 14:47:54,411 INFO  [Log] **************************************************************************************** 
+2015-05-14 14:47:54,643 INFO  [Log] Clicking on SignIn link 
+2015-05-14 14:47:57,434 INFO  [Log] Entering an email to register 
+2015-05-14 14:47:57,434 INFO  [Log] It is a new Email 
+2015-05-14 14:47:57,902 INFO  [Log] Clicking on Register button 
+2015-05-14 14:47:59,884 INFO  [Log] Clicked on Title radio button 
+2015-05-14 14:48:00,073 INFO  [Log] Enterd first name in the text field 
+2015-05-14 14:48:00,726 INFO  [Log] Enterd last name in the text field 
+2015-05-14 14:48:00,899 INFO  [Log] Enterd password in the text field 
+2015-05-14 14:48:01,479 INFO  [Log] Selecting days for Date of birth form the Dropdown 
+2015-05-14 14:48:32,281 INFO  [Log] Selecting Months for Date of birth form the Dropdown 
+2015-05-14 14:49:03,156 INFO  [Log] Selecting Years for Date of birth form the Dropdown 
+2015-05-14 14:49:03,422 INFO  [Log] Entering company name for shipping details 
+2015-05-14 14:49:03,595 INFO  [Log] Entering address1 for shipping details 
+2015-05-14 14:49:03,766 INFO  [Log] Entering address2 for shipping details 
+2015-05-14 14:49:03,939 INFO  [Log] Entering city for shipping details 
+2015-05-14 14:49:04,522 INFO  [Log] Entering state for shipping details 
+2015-05-14 14:49:04,694 INFO  [Log] Entering zip code for shipping details 
+2015-05-14 14:49:05,074 INFO  [Log] Entering country for shipping details 
+2015-05-14 14:49:05,227 INFO  [Log] Entering Mobile Number for shipping details 
+2015-05-14 14:49:05,390 INFO  [Log] Entering alias address for shipping details 
+2015-05-14 14:49:11,090 INFO  [Log] Clicking on Register button 
+2015-05-14 14:49:13,976 INFO  [Log] Logout form the application 
+2015-05-14 14:49:13,976 INFO  [Log] SignOutAction perform successfully 
+2015-05-14 14:49:16,272 INFO  [Log] Click action is perfromed on My Account link 
+2015-05-14 14:49:16,514 INFO  [Log]  entered in UserName text box 
+2015-05-14 14:49:16,713 INFO  [Log]  entered in Password text box 
+2015-05-14 14:49:19,421 INFO  [Log] Click action is performed on Submit button 
+2015-05-14 14:49:20,422 INFO  [Log] Login successfully 
+2015-05-14 14:49:20,422 INFO  [Log] SignInAction performed succesfully 
+2015-05-14 14:49:20,894 INFO  [Log] Moving to product listing page by clicking on the submenu 
+2015-05-14 14:49:24,972 INFO  [Log] Adding a product to cart done successfully 
+2015-05-14 14:49:25,141 INFO  [Log] Adding a product to cart 
+2015-05-14 14:49:28,400 INFO  [Log] purchesing the seleted product 
+2015-05-14 14:49:30,420 INFO  [Log] proceedToCheckOutInSummaryPage 
+2015-05-14 14:49:32,461 INFO  [Log] proceedToCheckOutInAddressDetailPage 
+2015-05-14 14:49:34,508 INFO  [Log] proceedTOCheckOutConfirmShippingPage 
+2015-05-14 14:49:36,035 INFO  [Log] payByCheque 
+2015-05-14 14:49:38,364 INFO  [Log] iConfirmMyOrder 
+2015-05-14 14:49:41,969 INFO  [Log] Clicking on SignOut button 
+2015-05-14 14:49:41,969 INFO  [Log] PurcheseActio perform successfully 
+2015-05-14 14:49:44,970 INFO  [Log] clickOnLogo element is found 
+2015-05-14 14:49:45,499 INFO  [Log] Selecting a product form home page and moving to detail about the product 
+2015-05-14 14:49:48,697 INFO  [Log] sendToAFriend element is found 
+2015-05-14 14:49:49,124 INFO  [Log] friendName is found 
+2015-05-14 14:49:49,306 INFO  [Log] friendEmail element is found 
+2015-05-14 14:49:49,520 INFO  [Log] cancel element is found 
+2015-05-14 14:49:50,057 INFO  [Log] Increasing the product quantity 
+2015-05-14 14:49:50,230 INFO  [Log] Increasing the product quantity 
+2015-05-14 14:49:50,230 INFO  [Log] increaseQuantity element is found 
+2015-05-14 14:49:50,422 INFO  [Log] Decreasing the product quantity 
+2015-05-14 14:49:50,422 INFO  [Log] decreaseQuantity element is found 
+2015-05-14 14:49:50,807 INFO  [Log] dropDownField element is found 
+2015-05-14 14:49:51,018 INFO  [Log] addToCart element is found 
+2015-05-14 14:49:52,012 INFO  [Log] proceedToChekOutInProductDetailPage element is found 
+2015-05-14 14:49:55,638 INFO  [Log] proceedToCheckOutInSummaryPage element found 
+2015-05-14 14:49:55,877 INFO  [Log] enterEmail element found 
+2015-05-14 14:49:56,087 INFO  [Log] enterPassword element found 
+2015-05-14 14:49:58,484 INFO  [Log] signin_button element is found 
+2015-05-14 14:50:00,068 INFO  [Log] proceedToCheckOutInAddressDetailPage element is found 
+2015-05-14 14:50:00,335 INFO  [Log] agreeTermsOfServices element found 
+2015-05-14 14:50:01,917 INFO  [Log] proceedTOCheckOutConfirmShippingPage element is found 
+2015-05-14 14:50:03,565 INFO  [Log] payByCheque element is found 
+2015-05-14 14:50:06,015 INFO  [Log] iConfirmMyOrder element is found 
+2015-05-14 14:50:06,016 INFO  [Log] Order complete successfully 
+2015-05-14 14:50:06,016 INFO  [Log] PurcheseFormHomePageAction done successfully 
+2015-05-14 14:50:08,896 INFO  [Log] clickOnLogo element is found 
+2015-05-14 14:50:09,453 INFO  [Log] Selecting a product form home page and moving to detail about the product 
+2015-05-14 14:50:10,656 INFO  [Log] Continue Shopping 
+2015-05-14 14:50:11,166 INFO  [Log] Selecting a product form home page and moving to detail about the product 
+2015-05-14 14:50:12,163 INFO  [Log] Continue Shopping 
+2015-05-14 14:50:13,246 INFO  [Log] Selected product titiel is------> Faded Short Sleeve T-shirts 
+2015-05-14 14:50:13,246 INFO  [Log] Product title in cart------>Faded Short Sleeve T-shirts 
+2015-05-14 14:50:13,246 INFO  [Log] product Title Matches 
+2015-05-14 14:50:13,246 INFO  [Log] Comparision of title is done successfully 
+2015-05-14 14:50:13,376 INFO  [Log] The prices of individual item is --->16.51 
+2015-05-14 14:50:13,444 INFO  [Log] The prices of individual item is --->27.0 
+2015-05-14 14:50:13,444 INFO  [Log] totalPrice is -->43.510002 
+2015-05-14 14:50:13,451 INFO  [Log] The expected price is-->45.51 
+2015-05-14 14:50:13,570 INFO  [Log] The Actual price is-->45.51 
+2015-05-14 14:50:13,570 INFO  [Log] The summation of price is done correctly 
+2015-05-14 14:50:13,570 INFO  [Log] **************************************************************************************** 
+2015-05-14 14:50:13,570 INFO  [Log] **************************************************************************************** 
+2015-05-14 14:50:13,570 INFO  [Log] $$$$$$$$$$$$$$$$$$             E------N------D                $$$$$$$$$$$$$$$$$$$ 
+2015-05-14 14:50:13,570 INFO  [Log] **************************************************************************************** 
+2015-05-14 14:50:13,570 INFO  [Log] **************************************************************************************** 
+2015-05-14 14:50:13,570 INFO  [Log] SelectedItemOnCartAction done successfully 
+2015-05-14 14:50:16,298 INFO  [Log] Closing the browser 

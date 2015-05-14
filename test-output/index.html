@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -99,6 +99,11 @@
                       <a href="#" panel-name="suite-TestSuite1" class="show-methods passed suite-TestSuite1"> (show)</a> <!-- show-methods passed suite-TestSuite1 -->
                     </span>
                     <div class="method-list-content passed suite-TestSuite1">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite1" title="com.webtek.test.SanityTest1" hash-for-method="firstAddProductThenCheckOutWithSign">firstAddProductThenCheckOutWithSign</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-TestSuite1" title="com.webtek.test.SanityTest1" hash-for-method="verifyItemPresentInCartAndSummation">verifyItemPresentInCartAndSummation</a> <!-- method navigator-link -->
@@ -122,6 +127,13 @@
               <span class="class-name">com.webtek.test.SanityTest1</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="firstAddProductThenCheckOutWithSign">
+                  </a> <!-- firstAddProductThenCheckOutWithSign -->
+                  <span class="method-name">firstAddProductThenCheckOutWithSign</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="verifyItemPresentInCartAndSummation">
@@ -183,16 +195,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyItemPresentInCartAndSummation')
+data.setCell(0, 1, 'firstAddProductThenCheckOutWithSign')
 data.setCell(0, 2, 'com.webtek.test.SanityTest1')
-data.setCell(0, 3, 7493);
+data.setCell(0, 3, 27420);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyItemPresentInCartAndSummation')
+data.setCell(1, 2, 'com.webtek.test.SanityTest1')
+data.setCell(1, 3, 6746);
 window.suiteTableData['TestSuite1']= { tableData: data, tableDiv: 'times-div-TestSuite1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 34 seconds</span>
               <div id="times-div-TestSuite1">
               </div> <!-- times-div-TestSuite1 -->
             </div> <!-- times-div -->
@@ -224,12 +240,16 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="test-method">
+                <span class="method-name">firstAddProductThenCheckOutWithSign</span>
+                <span class="method-start">11617 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">verifyItemPresentInCartAndSummation</span>
-                <span class="method-start">11367 ms</span>
+                <span class="method-start">39047 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">18900 ms</span>
+                <span class="method-start">45833 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
